@@ -88,19 +88,34 @@
 		<form action="">
 			<fieldset>
 				<legend>Fill in the form to contact me</legend>
-					<label for="text">Name</label>
-					<input id="text" type="text" placeholder="e.g. Your name">
 
-					<label for="tel">Phone</label>
-					<input id="tel" type="tel" placeholder="e.g. 665500000">    
+				  <!-- We group all the divs that contain elements of the form  -->
+					<div> 
 
-					<label for="email">Email</label>
-					<input id="email" type="email" placeholder="e.g. email@gmail.com">
+						<div>
+							<label for="text">Name</label>
+							<input id="text" type="text" placeholder="e.g. Your name">
+						</div>					
+						
+						<div>
+							<label for="tel">Phone</label>
+							<input id="tel" type="tel" placeholder="e.g. 665500000"> 
+						</div>
+							 
+						<div>
+							<label for="email">Email</label>
+							<input id="email" type="email" placeholder="e.g. email@gmail.com">
+						</div>
+	
+						<div>
+							<label for="message">Message</label>
+							<textarea id="message" placeholder="Type here..."></textarea>   
+						</div>
+					</div>
 
-					<label for="message">Message</label>
-					<textarea id="message" placeholder="Type here..."></textarea>   
-
-					<input type="submit" value="Send"> 
+					<div>
+						<input type="submit" value="Send"> 
+					</div>
 			</fieldset>
 		</form>
 	</section>
