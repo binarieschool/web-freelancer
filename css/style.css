@@ -1,0 +1,28 @@
+:root { /* Custom properties */
+
+  --primary_color: #288aa5;
+  --second_color: #555592;
+  --black_color: #000000;
+  --white_color: #ffffff;
+
+  --font_lora: 'Lora', serif;
+}
+
+html {
+  /* font-size 1em = 10px on default browser settings */
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px; /* e.g. 16px = 1rem  e.g.*/
+  font-family: var(--font_lora);
+}
+
+h1.title {
+  color: var(--second_color);
+  font-size: 3.8rem;
+}
+
+h1 .span-title {
+  color: var(--primary_color);
+}
