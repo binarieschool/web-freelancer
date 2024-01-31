@@ -3,6 +3,7 @@
   --second_color: #555592;
   --black_color: #000000;
   --white_color: #ffffff;
+  --background_services: #dedeea;
   --hover_color: #e6edf0;
   --font_lora: 'Lora', serif;
 }
@@ -93,6 +94,16 @@ h1.title {
   }
 }
 
+.my-location {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.2rem;
+}
+
+.my-location p {
+  font-weight: bold;
+}
+
 /* Image container. e.g. The ada.jpg image goes inside this <div> container */
 .contain-img-ada { 
   background-image: url("../img/ada.jpg");
@@ -110,6 +121,12 @@ h1.title {
   height: 100%;
 }
 
+@media (max-width: 480px) {
+  .contain-img-ada h2 {
+    font-size: 2.2rem;
+  }
+}
+
 .container-img-ada h2,
 .container-img-ada p {
   color: var(--white_color);
@@ -117,6 +134,7 @@ h1.title {
 
 /* Another way to give more reusable styles to the button */
 .botton-contact {
+  display: block;
   background: var(--second_color);
   color: var(--white_color);
   text-align: center;
@@ -129,9 +147,106 @@ h1.title {
   width: 90%;
 }
 
+@media (min-width: 768px){
+  .botton-contact {
+      display: unset; /* unset: Returns to its original size */
+  }
+}
+
+.shadow-container-main {
+  background-color: var(--background_services);
+  box-shadow: 0px 4px 12px 4px rgba(48,47,56,1);
+  padding: 2rem;
+  margin: 2rem 4rem;
+}
+
+.shadow-container-main h2 {
+  color: var(--black_color);
+}
+
+/* Services */
+
+.services {
+  display: grid;
+  gap: 1rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service h3 {
+  color: var(--black_color);
+}
+
+.icons {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary_color);
+}
+
+@media (min-width:768px){
+  .services {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+  }
+}
+
+/* Contact */
+
+.form-contact {
+  width: min(60rem, 100%); /* Choose the min value that is 60rem and if not 100% of the container */
+  margin: 0 auto;
+  border-radius: 1rem;
+  background-color: var(--primary_color);
+}
+
+.container-fields {
+  margin-bottom: 1.6rem;
+}
+
+.field-contact {
+ margin-bottom: 1.2rem;
+}
+
+.form-contact fieldset {
+  border: none; /* Remove the edges to the fildset */
+  margin-right: 1rem;
+}
+
+.form-contact legend {
+  padding-top: 1.4rem;
+  font-size: 1.8rem;
+  color: var(--white_color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form-contact label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--background_services);
+}
+
+.form-contact input,
+.form-contact textarea {
+  width: 100%;
+  padding: 0.4rem;
+}
+
+.botton-form {
+  text-align: center;
+}
 
 /* Mobile Phones */
-/* @media (min-width: 400px) {} */
+/* @media (min-width: 480px) {} */
 
 /* Tablet */
 /* @media (min-width: 768px) {} */
