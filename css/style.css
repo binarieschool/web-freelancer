@@ -4,11 +4,14 @@
   --black_color: #000000;
   --white_color: #ffffff;
   --background_services: #dedeea;
+  --button_contact: #214c6c;
+  --button_contact_hover: #3b698c;
+  --button_contact_active: #358740;
   --hover_color: #e6edf0;
   --font_lora: 'Lora', serif;
 }
 
-html {  
+html { 
   box-sizing: border-box;
   font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
   min-width: 400px; /* The screen will have a minimum */
@@ -147,6 +150,14 @@ h1.title {
   width: 90%;
 }
 
+.botton-contact:hover {
+  background-color: var(--button_contact_hover);
+}
+
+.botton-contact:active {
+  background-color: var(--button_contact_active);
+}
+
 @media (min-width: 768px){
   .botton-contact {
       display: unset; /* unset: Returns to its original size */
@@ -233,16 +244,87 @@ h1.title {
   font-size: 1.6rem;
   font-weight: 700;
   color: var(--background_services);
+  margin-bottom: 0.2rem;
 }
 
 .form-contact input,
 .form-contact textarea {
   width: 100%;
   padding: 0.4rem;
+  background-color: #dee3e7;
+  border: none;
+  border-radius: 0.2rem;
 }
+
+/* When we click inside the input or the textarea */
+.field-contact input[type="text"]:focus, 
+.field-contact input[type="tel"]:focus,
+.field-contact input[type="email"]:focus,
+.field-contact textarea:focus {
+  outline: none;
+  background: var(--white_color);    
+}
+
+textarea {
+    height: 10rem;
+    resize: none; /* Unable to expand textarea */
+}
+
 
 .botton-form {
   text-align: center;
+  background-color: var(--button_contact);
+  margin: 0 auto;
+  border-radius: 0.4rem;
+}
+
+@media (min-width:768px) {
+  .botton-form {
+    width: 12rem; 
+  }
+}
+
+.botton-form input[type="submit"]{
+  width: 100%;
+  border-radius: .5rem;
+  border: none;
+  padding: .5rem;
+  background-color: var(--button_contact);
+  color: var(--white_color);  
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botton-form input[type="submit"]:hover {
+  background: var(--button_contact_hover);  
+}
+
+.botton-form input[type="submit"]:active {
+  background: var(--button_contact_active);  
+}
+
+@media (min-width:768px){
+  .botton-form input[type="submit"] {
+      padding: .5rem 2rem;
+  }
+}
+
+
+/* Footer */
+
+footer.footer {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+footer.footer p {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.dev-bs {
+  font-weight: bold;
 }
 
 /* Mobile Phones */
