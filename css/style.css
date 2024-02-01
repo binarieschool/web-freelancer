@@ -67,6 +67,9 @@ h1.title {
 .nav-bg {
   width: 100%;
   background: var(--second_color);
+  position: sticky;
+  top: 0px;
+  z-index: 100;
 }
 
 .container-main-menu-bar {
