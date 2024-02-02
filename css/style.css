@@ -74,10 +74,23 @@ h1.title {
   cursor: pointer;
 }
 
+/* Open and close mobile menu button */
+.open-close {
+  display: block;
+  padding-top: 1rem;
+  text-transform: uppercase;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   .nav-bg {
     height: unset;
   }  
+  .open-close {
+    display: none;
+  }
 }
 
 .container-main-menu-bar {
