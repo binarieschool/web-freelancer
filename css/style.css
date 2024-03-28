@@ -247,6 +247,10 @@ h1.title {
   background-color: var(--primary_color);
 }
 
+.icons:hover {
+  background: linear-gradient(90deg, rgba(144,82,173,1) 0%, rgba(0,212,255,1) 100%);
+}
+
 @media (min-width:768px){
   .services {
     grid-template-columns: repeat(3, 1fr);
