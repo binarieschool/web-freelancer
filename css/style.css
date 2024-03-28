@@ -2,6 +2,7 @@
   --primary_color: #288aa5;
   --second_color: #555592;
   --black_color: #000000;
+  --black_color-transp: #0000007d;
   --white_color: #ffffff;
   --background_services: #dedeea;
   --button_contact: #214c6c;
@@ -66,6 +67,10 @@ h1.title {
 .container {
   max-width: 120rem; /* the max size of the container will be 1200px = 120rem */
   margin: 0 auto;
+}
+
+.container-img-ada h2 {
+  background: var(--black_color-transp);
 }
 
 .nav-bg {
@@ -147,6 +152,12 @@ h1.title {
 
 .my-location p {
   font-weight: bold;
+}
+
+.canary-link {
+  background: var(--black_color-transp);
+  color: var(--white_color);
+  font-size: 1.6rem;
 }
 
 /* Image container. e.g. The ada.jpg image goes inside this <div> container */
