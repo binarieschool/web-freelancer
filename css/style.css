@@ -50,6 +50,8 @@ h1.title {
   font-weight: 400;
 }
 
+.my-bold { font-weight: bold; }
+
 /* Tablet, Laptop and PC */
 @media (min-width: 768px) {
   h1.title {
