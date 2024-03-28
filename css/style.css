@@ -212,7 +212,10 @@ h1.title {
 }
 
 .shadow-container-main h2 {
-  color: var(--black_color);
+  color: var(--white_color);
+  background: linear-gradient(90deg, rgba(144,82,173,1) 0%, rgba(0,212,255,1) 100%);
+  border-radius: 1rem;
+  padding: 0.4rem 0;
 }
 
 /* Services */
@@ -255,14 +258,20 @@ h1.title {
 
 .clients {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   justify-items: center;
-  gap: 1.5rem;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
   .clients {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .clients {
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
   }
 }
@@ -276,10 +285,16 @@ h1.title {
 /* Contact */
 
 .form-contact {
-  width: min(60rem, 100%); /* Choose the min value that is 60rem and if not 100% of the container */
+  width: 80%;
   margin: 0 auto;
   border-radius: 1rem;
   background-color: var(--primary_color);
+}
+
+@media (min-width: 768px) {
+  .form-contact {
+    width: 65rem;
+  } 
 }
 
 .container-fields {
@@ -348,7 +363,7 @@ textarea {
   }
 }
 
-.botton-form input[type="submit"]{
+.botton-form input[type="submit"] {
   width: 100%;
   border-radius: .5rem;
   border: none;
@@ -368,12 +383,11 @@ textarea {
   background: var(--button_contact_active);  
 }
 
-@media (min-width:768px){
+@media (min-width:768px) {
   .botton-form input[type="submit"] {
       padding: .5rem 2rem;
   }
 }
-
 
 /* Footer */
 
