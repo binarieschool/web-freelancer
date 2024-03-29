@@ -164,6 +164,10 @@ h1.title {
   font-size: 1.6rem;
 }
 
+span.icon-world {
+  font-size: 3rem;
+}
+
 /* Image container. e.g. The ada.jpg image goes inside this <div> container */
 .contain-img-ada { 
   background-image: url("../img/ada.jpg");
