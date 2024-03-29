@@ -24,5 +24,25 @@ menuOpenClose.addEventListener("click", function() {
   }
 });
 
+// When I click on form text boxes
+
+let textForm = document.querySelectorAll("input.text-form, textarea.text-form");
+let fCL = document.querySelector(".form-contact legend"); // formContactLegend
+
+  document.addEventListener("click", (event)=> { 
+    console.log(event.target)
+    for (let index = 0; index < textForm.length; index++) {
+      if (textForm[index].classList[0] === event.target.classList[0]) {
+        fCL.style.textShadow="0 0 1rem #96c6d7c2";
+        fCL.style.fontSize="2rem";
+      } 
+      else {
+        fCL.style.textShadow="unset"
+        fCL.style.fontSize="1.8rem";
+      }
+    }
+  });
+
+
 
 
