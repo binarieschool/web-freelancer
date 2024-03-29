@@ -90,11 +90,13 @@ h1.title {
 /* Open and close mobile menu button */
 .open-close {
   display: block;
-  padding-top: 1rem;
+  padding: 1rem 0;
   text-transform: uppercase;
   color: white;
   font-size: 2.2rem;
   font-weight: bold;
+  background: #6868ce;
+  height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -138,6 +140,7 @@ h1.title {
 .container-main-menu-bar a:hover {
   background: var(--primary_color);
   color: var(--hover_color);
+  transition-duration: 1s;
 }
 
 /* Tablet, Laptop and PC */
@@ -169,6 +172,7 @@ span.icon-world {
   font-size: 3rem;  
 }
 
+/* Rotation effect on world icon */
 span.icon-world:hover {
   transition-duration: 2s;
   transition-timing-function: ease-in;
@@ -219,6 +223,10 @@ span.icon-world:hover {
 }
 
 .botton-contact:hover {
+  transition-duration: 1s;
+}
+
+.botton-contact:hover {
   background-color: var(--button_contact_hover);
 }
 
@@ -251,6 +259,7 @@ span.icon-world:hover {
   background: var(--black_color-transp);
   letter-spacing: 0.1rem;
   text-shadow: 0 0 1rem #96c6d7c2; /* effect on the letter */
+  transition-duration: 1s;
   
 }
 
@@ -356,6 +365,7 @@ span.icon-world:hover {
   color: var(--white_color);
   font-weight: 700;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .form-contact label {
@@ -414,6 +424,11 @@ textarea {
   font-weight: bold;
   cursor: pointer;
 }
+
+.botton-form input[type="submit"]:hover {
+  transition-duration: 1s;
+}
+
 
 .botton-form input[type="submit"]:hover {
   background: var(--button_contact_hover);  
