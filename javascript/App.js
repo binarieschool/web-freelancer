@@ -4,8 +4,25 @@ let containerNav = document.querySelector(".nav-bg nav");
 let menuOpenClose = document.querySelector(".nav-bg .open-close");
 var state = false;
 
+// When I click on a navigation menu item in mobile view, the menu closes
+
+let itemsMenuNav = document.querySelectorAll(".item-menu-nav");
+
+const functionIMN = function() {  // functionIMN = functionItemsNav
+  for (let i = 0; i < itemsMenuNav.length; i++) {
+   itemsMenuNav[i].addEventListener("click", ()=>{ 
+    console.log("Desactive");
+    myNav.classList.remove("no-collapse-menu");
+    containerNav.classList.add("collapse-menu");
+    myNav.style.height = "4.4rem";
+    state = false;
+  }) 
+  }
+}
+
 // Add an event listener to the button for the "click" event
 menuOpenClose.addEventListener("click", function() {
+
   // Change the state
   state = !state;
 
@@ -15,6 +32,7 @@ menuOpenClose.addEventListener("click", function() {
     myNav.classList.add("no-collapse-menu");
     containerNav.classList.remove("collapse-menu");
     myNav.style.height = "unset";
+    functionIMN();
 
   } else {
     console.log("Desactive");
