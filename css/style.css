@@ -165,7 +165,14 @@ h1.title {
 }
 
 span.icon-world {
-  font-size: 3rem;
+  display: inline-block;
+  font-size: 3rem;  
+}
+
+span.icon-world:hover {
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transform: rotateY(360deg);
 }
 
 /* Image container. e.g. The ada.jpg image goes inside this <div> container */
