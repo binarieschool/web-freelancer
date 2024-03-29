@@ -33,6 +33,10 @@ h1, h2, h3 {
   color: var(--white_color);
 }
 
+h3 {
+  letter-spacing: 0.1rem;
+}
+
 .center-text {
   text-align: center;
 }
@@ -229,6 +233,14 @@ h1.title {
   background: linear-gradient(90deg, rgba(144,82,173,1) 0%, rgba(0,212,255,1) 100%);
   border-radius: 1rem;
   padding: 0.4rem 0;
+  scroll-margin-top: 4.8rem; /* scroll on internal links */
+}
+
+.shadow-container-main h2:hover { 
+  background: var(--black_color-transp);
+  letter-spacing: 0.1rem;
+  text-shadow: 0 0 1rem #96c6d7c2; /* effect on the letter */
+  
 }
 
 /* Services */
