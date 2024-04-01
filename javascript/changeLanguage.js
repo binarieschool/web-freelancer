@@ -1,3 +1,21 @@
+// Navigation menu links
+const navSpanish = ["Inicio","Mis Servicios","Sobre mí","Clientes","Contacto"];
+const navEnglish = ["Home","My Services","About me","Customers","Contact"];
+
+const navItems = document.querySelectorAll("nav a");
+
+for (let i = 0; i < navItems.length; i++) {
+    navItems[i].onmouseover = function() {
+        navItems[i].textContent = navSpanish[i]
+    };
+}
+
+for (let y = 0; y <navItems.length; y++) {
+    navItems[y].onmouseout = function() {
+        navItems[y].textContent = navEnglish[y]
+    };    
+}
+
 // All h2 tags
 const h2Spanish = ["Desarrollo Web, Móvil e IA","Mis Servicios","Sobre mí","Clientes","Contacto"];
 const h2English = ["Web, Mobile and AI development","My Services","About me","Customers","Contact"];
@@ -16,7 +34,7 @@ for (let y = 0; y < allH2.length; y++) {
     };    
 }
 
-// All h3 inside service
+// All h3 inside serviceconst allH2 = document.querySelectorAll("h2");
 const h3Spanish = ["Desarrollo Web","Aplicaciones móviles","IA"];
 const h3English = ["Web development","Mobil applications","AI"];
 
