@@ -1,78 +1,58 @@
+function funMouseOver(es, array) {
+    for (let i = 0; i < array.length; i++) {
+        array[i].onmouseover = function() {
+            array[i].textContent = es[i];
+        };
+    }
+}
+
+function funMouseOut(en, array) {
+    for (let y = 0; y <array.length; y++) {
+        array[y].onmouseout = function() {
+            array[y].textContent = en[y];
+        };    
+    }
+}
+
 // Navigation menu links
 const navSpanish = ["Inicio","Mis Servicios","Sobre mí","Clientes","Contacto"];
 const navEnglish = ["Home","My Services","About me","Customers","Contact"];
-
 const navItems = document.querySelectorAll("nav a");
 
-for (let i = 0; i < navItems.length; i++) {
-    navItems[i].onmouseover = function() {
-        navItems[i].textContent = navSpanish[i]
-    };
-}
 
-for (let y = 0; y <navItems.length; y++) {
-    navItems[y].onmouseout = function() {
-        navItems[y].textContent = navEnglish[y]
-    };    
-}
+funMouseOver(navSpanish, navItems);
+funMouseOut(navEnglish, navItems);
 
 // All h2 tags
+
 const h2Spanish = ["Desarrollo Web, Móvil e IA","Mis Servicios","Sobre mí","Clientes","Contacto"];
 const h2English = ["Web, Mobile and AI development","My Services","About me","Customers","Contact"];
-
 const allH2 = document.querySelectorAll("h2");
 
-for (let i = 0; i < allH2.length; i++) {
-    allH2[i].onmouseover = function() {
-        allH2[i].textContent = h2Spanish[i]
-    };
-}
+funMouseOver(h2Spanish, allH2);
+funMouseOut(h2English, allH2);
 
-for (let y = 0; y < allH2.length; y++) {
-    allH2[y].onmouseout = function() {
-        allH2[y].textContent = h2English[y]
-    };    
-}
+// All h3
 
-// All h3 inside serviceconst allH2 = document.querySelectorAll("h2");
 const h3Spanish = ["Desarrollo Web","Aplicaciones móviles","IA"];
 const h3English = ["Web development","Mobil applications","AI"];
-
 const allSeviceH3 = document.querySelectorAll(".service h3");
 
-console.log(allSeviceH3);
-
-for (let i = 0; i < allSeviceH3.length; i++) {
-    allSeviceH3[i].onmouseover = function() {
-        allSeviceH3[i].textContent = h3Spanish[i]
-    };
-}
-
-for (let y = 0; y < allSeviceH3.length; y++) {
-    allSeviceH3[y].onmouseout = function() {
-        allSeviceH3[y].textContent = h3English[y]
-    };    
-}
+funMouseOver(h3Spanish, allSeviceH3);
+funMouseOut(h3English, allSeviceH3);
 
 // //All p inside service
+
 const pSpanish = ["Desarrollo de aplicaciones web o sitios web utilizando diferentes tecnologías: HTML, CSS, Javascript, React, Python,...","Construcción de aplicaciones móviles con React Native Framework, para sistemas operativos Android e iOS.","En el proceso de aprendizaje, se utilizan lenguajes de programación Javascript y especialmente Python."];
+
 const pEnglish = ["Development of web applications or websites using different technologies: HTML, CSS, Javascript, React, Python, ...","Construction of mobile applications with the React Native Framework, for Android and iOS operating systems.","In the process of learning, using Javascript programming languages and especially Python."];
 
 const allSeviceP = document.querySelectorAll(".service p");
 
-for (let i = 0; i < allSeviceP.length; i++) {
-    allSeviceP[i].onmouseover = function() {
-        allSeviceP[i].textContent = pSpanish[i]
-    };
-}
+funMouseOver(pSpanish, allSeviceP);
+funMouseOut(pEnglish, allSeviceP);
 
-for (let y = 0; y < allSeviceP.length; y++) {
-    allSeviceP[y].onmouseout = function() {
-        allSeviceP[y].textContent = pEnglish[y]
-    };    
-}
-
-// 7 p
+// p
 
 const sectionPSpanish = ["Desarrollo de aplicaciones web o sitios web utilizando diferentes tecnologías: HTML, CSS, Javascript, React, Python,...","Construcción de aplicaciones móviles con React Native Framework, para sistemas operativos Android e iOS.","En el proceso de aprendizaje, utilizando lenguajes de programación Javascript y especialmente Python.","Soy programador informático y amante de buscar nuevas ideas que puedan aportar a la sociedad.","Los lenguajes de programación que he visto han sido Java, PHP, Javascript y Python. Aunque ahora estoy más centrado en el desarrollo web y móvil, la idea es seguir creciendo y aplicar todo mi potencial a la IA.","Haciendo un resumen rápido: Me gusta programar y hacer realidad todo lo que pienso.","Nota: Estos clientes no son reales, es para dar una visión más realista del sitio web."];
 
@@ -80,15 +60,47 @@ const sectionPEnglish = ["Development of web applications or websites using diff
 
 const allSectionP = document.querySelectorAll("section p.p-transl");
 
-for (let i = 0; i < allSectionP.length; i++) {
-    allSectionP[i].onmouseover = function() {
-        allSectionP[i].textContent = sectionPSpanish[i]
-        console.log(allSectionP[i]);
+funMouseOver(sectionPSpanish, allSectionP);
+funMouseOut(sectionPEnglish, allSectionP);
+
+// legend
+
+const legendSpanish = ["RELLENA EL FORMULARIO PARA CONTACTAR"];
+const legendEnglish = ["FILL IN THE FORM TO CONTACT ME"];
+const myLegend = document.querySelector("legend");
+
+myLegend.onmouseover = function() {
+    myLegend.textContent = legendSpanish[0]
+};
+
+myLegend.onmouseout = function() {
+    myLegend.textContent = legendEnglish[0]
+};   
+
+// Label
+
+const labelSpanish = ["Nombre","Teléfono","Correo electrónico","Mensaje"];
+const labelEnglish = ["Name","Phone.","Email","Message"];
+const myLabel = document.querySelectorAll(".form-contact label");
+
+funMouseOver(labelSpanish, myLabel);
+funMouseOut(labelEnglish, myLabel);
+
+// Placeholder
+
+const placeholderSpanish = ["ej. Tú nombre","ej. Tú teléfono","ej. Tú correo electrónico","Escribe tu mensaje aquí..."];
+const placeholderEnglish = ["e.g. Your name","e.g. 665500000.","e.g. email@gmail.com","Type here..."];
+
+const myPlaceholder = document.querySelectorAll("[placeholder]");
+
+for (let i = 0; i < myPlaceholder.length; i++) {
+    myPlaceholder[i].onmouseover = function() {
+        myPlaceholder[i].placeholder = placeholderSpanish[i]
     };
 }
 
-for (let y = 0; y < allSectionP.length; y++) {
-    allSectionP[y].onmouseout = function() {
-        allSectionP[y].textContent = sectionPEnglish[y]
+for (let y = 0; y < myPlaceholder.length; y++) {
+    myPlaceholder[y].onmouseout = function() {
+        myPlaceholder[y].placeholder = placeholderEnglish[y]
     };    
 }
