@@ -83,7 +83,7 @@ funMouseOut(labelEnglish, myLabel);
 
 // Placeholder - Form
 const placeholderSpanish = ["ej. Melquiades","ej. 665500000","ej. email@gmail.com","Escribe tu mensaje aquí..."];
-const placeholderEnglish = ["e.g. Melquiades","e.g. 665500000","e.g. email@gmail.com","Type here..."];
+const placeholderEnglish = ["e.g. Melquiades","e.g. 665500000","e.g. email@gmail.com","Write your message here..."];
 
 const myPlaceholder = document.querySelectorAll("[placeholder]");
 
