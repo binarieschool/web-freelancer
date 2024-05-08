@@ -1,4 +1,4 @@
-# web-freelancer
+# Website Freelancer
 
 ## About
 
