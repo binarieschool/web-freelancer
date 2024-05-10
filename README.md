@@ -1,23 +1,35 @@
 # Website Freelancer
 
-## About
+## About 🚀
 
-## Table of Contents
+  > Freelance platform that demonstrates the technological skills you have to provide services to companies.
 
-## Demo
+## Table of Contents 📑
 
-## Feactures
+## Demo 💻
 
-## Install and Run the project
+## Feactures 💡
 
-## Built with
+## Install and Run the project ⚙️
 
-## Useful resources
+```bash
+# Step 1
+```
+```bash
+# Step 2
+```
+```bash
+# Step 3
+```
 
-## License
+## Built with 🏗️
+
+## Useful resources 🔧
+
+## License 📋
 
   > GPL-3.0 license
 
-## Author
+## Author 🧑🏻‍💻
 
-  > Melquiades H.R.
+  > Melquiades H.R..
