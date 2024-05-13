@@ -5,9 +5,8 @@
   > Freelance platform that demonstrates the technological skills you have to provide services to companies.
 
 ## Table of Contents 📑
----
 
-- [Demo](#demo)
+* [Demo](#demo)
 * [Feactures](#feactures)
 * [User Guide](#user-guide)
 * [Install and Run](#install-run)
@@ -19,7 +18,6 @@
 
 
 ## Demo 💻
----
 
 ## Feactures 💡
 
