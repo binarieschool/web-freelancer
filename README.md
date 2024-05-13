@@ -12,6 +12,7 @@
 * [Install and Run](#install-run)
 * [Built with](#built-with)
 * [Useful resources](#useful-resources)
+* [Code of conduct](#code-of-conduct)
 * [License](#license)
 * [Author](#author)
 
@@ -35,6 +36,8 @@
 ## Built with 🏗️
 
 ## Useful resources 🔧
+
+## Code of conduct 🤝
 
 ## License 📋
 
