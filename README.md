@@ -5,6 +5,7 @@
   > Freelance platform that demonstrates the technological skills you have to provide services to companies.
 
 ## Table of Contents 📑
+---
 
 - [Demo](#demo)
 * [Feactures](#feactures)
