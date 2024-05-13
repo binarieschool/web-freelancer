@@ -33,6 +33,15 @@ Instructions on how to use them in your own application are linked below.
 | Medium | [plugins/medium/README.md](plugins/medium/README.md) |
 | Google Analytics | [plugins/googleanalytics/README.md](plugins/googleanalytics/README.md) |
 
+| Name | How does it work? |
+| ---- | ----------------- |
+|      |                   |
+|      |                   |
+|      |                   |
+|      |                   |
+|      |                   |
+|      |                   |
+
 ## Install and Run ⚙️
 
 ```bash
