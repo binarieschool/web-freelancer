@@ -6,11 +6,21 @@
 
 ## Table of Contents 📑
 
+* [Demo](#demo)
+* [Feactures](#feactures)
+* [User Guide](#user-guide)
+* [Install and Run](#install-run)
+* [Built with](#built-with)
+* [Useful resources](#useful-resources)
+* [License](#license)
+* [Author](#author)
+
+
 ## Demo 💻
 
 ## Feactures 💡
 
-## Install and Run the project ⚙️
+## Install and Run ⚙️
 
 ```bash
 # Step 1
