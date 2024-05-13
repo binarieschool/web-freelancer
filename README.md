@@ -6,7 +6,7 @@
 
 ## Table of Contents 📑
 
-* [Demo](#demo)
+* [Demo](##demo)
 * [Feactures](#feactures)
 * [User Guide](#user-guide)
 * [Install and Run](#install-run)
