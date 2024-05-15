@@ -4,7 +4,17 @@
 
 ## About 🚀
 
-  > Freelance platform that demonstrates the technological skills you have to provide services to companies.
+Freelance platform that demonstrates the technological skills you have to provide services to companies.
+
+<br/>
+
+>  <p>Note: This project is based on <a href="https://www.udemy.com/user/juanpablodelatorrevaldez/" target="_blank">Juan de la Torre's course on Udemy</a>, with different changes made by me.</p>
+
+Changes that were incorporated into the project:
+
+- Changes 1 ...
+- Changes 2 ...
+- Changes 3 ...
 
 ## Table of Contents 📑
 
@@ -152,4 +162,4 @@ Free software license used to protect the rights of users and promote freedom in
 
 ## Author 🧑🏻‍💻
 
-  > Melquiades H.R..
+  > Melquiades H.R.
