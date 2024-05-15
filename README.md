@@ -23,7 +23,7 @@
 
 Project images:
 
-  &nbsp;&nbsp; URL Image (Here )
+  &nbsp;&nbsp; URL Image ( Here )
 
 Project videos:
 
