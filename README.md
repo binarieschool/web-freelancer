@@ -65,8 +65,8 @@ Run the project:
 
 Download resources:
 
-| Host | Resource Type | Content | URL |
-| ---- | ------------- | ------- | --- |
+| Host | Type | Content | URL |
+| ---- | ---- | ------- | --- |
 | ![Dropbox](https://img.shields.io/badge/Dropbox-%233B4D98.svg?style=for-the-badge&logo=Dropbox&logoColor=white) | Images | Different images of musical groups | https://name-host |
 ||               |         |     |
 ||               |         |     |
