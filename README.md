@@ -96,7 +96,7 @@ Some code blocks from the project:
     <meta charset="UTF-8">
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1>Hello, World!</h1>
   </body>
 </html>
 ```
@@ -122,7 +122,7 @@ export default App;
 
 ```python
 # Python
-print("")
+print("Hello, World!")
 ```
 
 ## Useful resources 🔧
