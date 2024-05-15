@@ -1,20 +1,11 @@
 # Website Freelancer
 
-🚧️ THIS RESOURCE IS UNDER CONSTRUCTION !!! 🚧️
+> [!WARNING]
+> 🚧️ THIS RESOURCE IS **UNDER CONSTRUCTION** !!! 🚧️
 
 ## About 🚀
 
 Freelance platform that demonstrates the technological skills you have to provide services to companies.
-
-<br/>
-
->  <p>Note: This project is based on <a href="https://www.udemy.com/user/juanpablodelatorrevaldez/" target="_blank">Juan de la Torre's course on Udemy</a>, with different changes made by me.</p>
-
-Changes that were incorporated into the project:
-
-- Changes 1 ...
-- Changes 2 ...
-- Changes 3 ...
 
 ## Table of Contents 📑
 
@@ -31,9 +22,13 @@ Changes that were incorporated into the project:
 
 ## Demo 💻
 
+View project (URL)
+
 Project images:
 
   &nbsp;&nbsp; URL Image ( Here )
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
 Project videos:
 
@@ -134,6 +129,23 @@ export default App;
 # Python
 print("Hello, World!")
 ```
+
+<br/>
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 
 ## Useful resources 🔧
 
